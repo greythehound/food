@@ -33,6 +33,7 @@
     <main class="main">
         <div class="container">
             <section class="restaurants">
+                <div class="wrapper">
                 <div class="section-heading">
                     <h2 class="section-title">Pizza Plus</h2>
                     <div class="card-info">
@@ -44,8 +45,17 @@
                     </div>
                 </div>
                 <!-- /.section-heading -->
-                <div class="cards wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="card wow fadeInUp">
+                <div class="dropdown">
+                    <select name="Select menu" id="" class="dropdown-options">
+                        <option value="0">Breakfast</option>
+                        <option value="1">Lunch</option>
+                        <option value="2">Business Lunch</option>
+                        <option value="3">Supper</option>
+                    </select>
+                </div>
+            </div>
+                <div class="cards wow fadeInUp">
+                    <div class="card wow fadeInUp"  data-wow-delay="0.1s">
                         <img src="img/restaurants/1.jpg" alt="image" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
@@ -275,5 +285,6 @@
     <!-- /.modal -->
     <script src="script/wow.min.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/wm.js"></script>
 </body>
 </html>
