@@ -1,6 +1,7 @@
 const cartButton = document.querySelector("#cart-button");
 const modal = document.querySelector(".modal");
 const close = document.querySelector(".close");
+let user = 10;
 
 cartButton.addEventListener('click', toggleModal);
 
